@@ -1,3 +1,4 @@
+mod extra_unused_lifetimes;
 fn main() {
-    println!("Hello, world!");
+   extra_unused_lifetimes::run();
 }
